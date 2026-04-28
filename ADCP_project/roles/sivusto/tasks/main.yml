@@ -1,4 +1,4 @@
-- name: Luo web root -hakemisto
+- name: create web root
   file:
     path: /var/www/etusivu
     state: directory
@@ -6,10 +6,43 @@
     group: www-data
     mode: '0755'
 
-- name: Kopioi etusivun index.html
+- name: copy frontpage index.html
   copy:
     src: etusivu/index.html
     dest: /var/www/html/index.html
+    owner: www-data
+    group: www-data
+    mode: '0644'
+
+- name: create erkka directory
+  file:
+    path: /var/www/html/erkka
+    state: directory
+    owner: www-data
+    group: www-data
+    mode: '0775'
+
+- name: create vili directory
+  file:
+    path: /var/www/html/vili
+    state: directory
+    owner: www-data
+    group: www-data
+    mode: '0775'
+
+
+- name: copy erkka_photo
+  copy:
+    src: erkka/erkka.jpg
+    dest: /var/www/html/erkka/erkka.jpg
+    owner: www-data
+    group: www-data
+    mode: '0644'
+
+- name: copy vili_photo
+  copy: 
+    src: vili/vili.png
+    dest: /var/www/html/vili/vili.png
     owner: www-data
     group: www-data
     mode: '0644'
