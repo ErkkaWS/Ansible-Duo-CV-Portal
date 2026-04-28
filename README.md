@@ -9,8 +9,11 @@ Copy SSH key to each worker: ssh-copy-id slave@<worker-ip>
 Update hosts.ini with worker IPs
 Run: ansible-playbook site.yml
 
+
+
 **VM Network Setup**
-Each VM requires two network adapters in VirtualBox:
+
+<br>Each VM requires two network adapters in VirtualBox:
 
 Adapter 1: NAT
 Adapter 2: Internal Network (intnet)
