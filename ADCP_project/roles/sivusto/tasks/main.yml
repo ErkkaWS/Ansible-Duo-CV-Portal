@@ -49,7 +49,7 @@
 
 - name: copy 404 gif
   copy:
-    src: /404/giphy.gif
+    src: 404/giphy.gif
     dest: /var/www/html/giphy.gif
     owner: www-data
     group: www-data
@@ -57,7 +57,7 @@
 
 - name: copy 404 html
   copy:
-    src: /404/404.html
+    src: 404/404.html
     dest: /var/www/html/404.html
     owner: www-data
     group: www-data

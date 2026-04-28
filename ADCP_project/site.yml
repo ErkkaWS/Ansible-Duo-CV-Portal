@@ -4,6 +4,7 @@
     - salasanaton
     - webserver
     - nginx_conf
+    - fail2ban
     - palomuuri
     - sivusto
 
