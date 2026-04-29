@@ -1,6 +1,6 @@
 <?php
-$webhook_url = "https://discord.com/api/webhooks/1499141747085934654/U5DNDebeo_1Hiwo4-nfComUPUhZHupK8lW75gVVGeuupLYCuAu2y0lkmDEPtNAx99xRm";
-
+$webhook_url = getenv("DISCORD_WEBHOOK_URL"); 
+    
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nimi = htmlspecialchars($_POST["nimi"]);
     $viesti = htmlspecialchars($_POST["viesti"]);
