@@ -9,7 +9,7 @@
 
 - name: start php-fpm
   service:
-    name: php-fpm
+    name: php8.2-fpm
     state: started
     enabled: yes
 
