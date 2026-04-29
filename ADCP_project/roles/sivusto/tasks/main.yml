@@ -14,22 +14,6 @@
     group: www-data
     mode: '0644'
 
-- name: create erkka directory
-  file:
-    path: /var/www/html/erkka
-    state: directory
-    owner: www-data
-    group: www-data
-    mode: '0775'
-
-- name: create vili directory
-  file:
-    path: /var/www/html/vili
-    state: directory
-    owner: www-data
-    group: www-data
-    mode: '0775'
-
 - name: copy erkka
   copy:
     src: erkka
