@@ -46,10 +46,18 @@
     group: www-data
     mode: '0644'
 
+- name: create 404 directory
+  file:
+    path: /var/www/html/404
+    state: directory
+    owner: www-data
+    group: www-data
+    mode: '0775'
+
 - name: copy 404.gif
   copy:
     src: 404/giphy.gif
-    dest: /var/www/html/giphy.gif
+    dest: /var/www/html/404/giphy.gif
     owner: www-data
     group: www-data
     mode: '0644'
@@ -57,7 +65,7 @@
 - name: copy 404.html
   copy:
     src: 404/404.html
-    dest: /var/www/html/404.html
+    dest: /var/www/html/404/404.html
     owner: www-data
     group: www-data
     mode: '0644'
