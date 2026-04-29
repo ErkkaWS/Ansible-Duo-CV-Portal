@@ -16,7 +16,7 @@
 
 - name: copy erkka
   copy:
-    src: erkka
+    src: erkka/
     dest: /var/www/html/erkka
     owner: www-data
     group: www-data
@@ -24,7 +24,7 @@
 
 - name: copy vili
   copy:
-    src: vili
+    src: vili/
     dest: /var/www/html/vili
     owner: www-data
     group: www-data
