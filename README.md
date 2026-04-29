@@ -1,12 +1,20 @@
 # **Ansible Duo Curriculum Vitae Portal**
 We made this Ansible based automated nginx webpage- server/portal thingy on Debian 13.4 Trixie, it configures and installs our combined CV-portal over multiple worker nodes. 
 
-<img width="1896" height="1205" alt="kuva" src="https://github.com/user-attachments/assets/9b2cf035-066a-4e27-9dd1-ac40404140ac" />
-<img width="1912" height="1198" alt="kuva" src="https://github.com/user-attachments/assets/d6488f27-c32e-44d7-90dc-fe4500f98f6e" />
-<img width="1918" height="1201" alt="kuva" src="https://github.com/user-attachments/assets/28f935e3-201b-453f-8c1c-46897fedae68" />
-<img width="1915" height="1203" alt="kuva" src="https://github.com/user-attachments/assets/b012c492-dc76-49eb-9644-b59978f799c7" />
-<img width="569" height="416" alt="kuva" src="https://github.com/user-attachments/assets/e6ade738-c6a4-4651-81f6-f6acfb53a047" />
-<img width="984" height="216" alt="kuva" src="https://github.com/user-attachments/assets/d92f15ad-c2bf-4a54-871a-785e4510262d" />
+<table>
+  <tr>
+    <td><img width="900" src="https://github.com/user-attachments/assets/9b2cf035-066a-4e27-9dd1-ac40404140ac" /></td>
+    <td><img width="900" src="https://github.com/user-attachments/assets/d6488f27-c32e-44d7-90dc-fe4500f98f6e" /></td>
+  </tr>
+  <tr>
+    <td><img width="900" src="https://github.com/user-attachments/assets/28f935e3-201b-453f-8c1c-46897fedae68" /></td>
+    <td><img width="900" src="https://github.com/user-attachments/assets/b012c492-dc76-49eb-9644-b59978f799c7" /></td>
+  </tr>
+  <tr>
+    <td><img width="600" src="https://github.com/user-attachments/assets/e6ade738-c6a4-4651-81f6-f6acfb53a047" /></td>
+    <td><img width="600" src="https://github.com/user-attachments/assets/d92f15ad-c2bf-4a54-871a-785e4510262d" /></td>
+  </tr>
+</table>
 
 
 
