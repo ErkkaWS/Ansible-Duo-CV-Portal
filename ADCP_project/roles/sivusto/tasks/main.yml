@@ -48,17 +48,17 @@
     mode: '0644'
 
 - name: copy erkka html
-  file:
+  copy:
     src: erkka/index.html
-    path: /var/www/html/erkka/index.html
+    dest: /var/www/html/erkka/index.html
     owner: www-data
     group: www-data
     mode: '0644'
 
 - name: copy vili html
-  file:
+  copy:
     src: vili/index.html
-    path: /var/www/html/vili/index.html
+    dest: /var/www/html/vili/index.html
     owner: www-data
     group: www-data
     mode: '0644'
