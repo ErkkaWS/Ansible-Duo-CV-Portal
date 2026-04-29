@@ -5,6 +5,9 @@ We made this Ansible based automated nginx webpage- server/portal thingy on Debi
 Eric Setälä
 Vili Virtanen
 
+## **Licence**
+GNU General Public License v3.0
+
 <table>
   <tr>
     <td><img width="900" src="https://github.com/user-attachments/assets/9b2cf035-066a-4e27-9dd1-ac40404140ac" /></td>
@@ -19,9 +22,6 @@ Vili Virtanen
     <td><img width="600" src="https://github.com/user-attachments/assets/d92f15ad-c2bf-4a54-871a-785e4510262d" /></td>
   </tr>
 </table>
-
-## **Licence**
-GNU General Public License v3.0
 
 ## **Setup**
 Clone: git clone git@github.com:ErkkaWS/Ansible-Duo-CV-Portal.git
