@@ -1,7 +1,7 @@
 - hosts: all
   become: true
   vars_files:
-    - salaisuudet.yml
+    - salaisuus.yml
   roles:
     - salasanaton
     - webserver
